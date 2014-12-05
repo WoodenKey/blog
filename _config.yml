@@ -1,4 +1,3 @@
-#auto：这个指代的是否有文件更新就需要更新站点。默认是false
 auto: true
 
 markdown: rdiscout
