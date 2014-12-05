@@ -1,0 +1,148 @@
+@media screen
+/* 全局 */
+html,body,div,h1,h2,h3,h4,h5,h6,p,ul,li,a{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-family: "Segoe UI","Microsoft Yahei", Arial;
+	font-size: 21px;
+	font-weight: 300px;
+	color: #ddd;
+}
+p{
+	line-height: 1.5em;
+}
+a:link,a:visited{
+	color: #fc0;
+	text-decoration: none;
+}
+a:hover,a:active{
+	color: #f90;
+	text-decoration: none;
+}
+
+.clearfix:after {
+	display: block;
+	content: ".";
+	visibility: hidden;
+	clear: both;
+	/*IE5*/
+	zoom:1;
+}
+.floatleft{
+	float: left;
+}
+.floatright{
+	float:right;
+	text-align: right;
+}
+
+/* 布局、背景色 */
+html{
+	background-color: #333;
+}
+body{
+	max-width: 987px;
+	margin: 0 auto;
+	border-top: 8px solid #fc0;
+}
+
+
+/* 头部 */
+#header{
+
+}
+#sitename{
+	width: 50%;
+	padding: 10px;
+	margin: 40px 20px 0 0;
+	font-size: 60px;
+}
+#nav{
+	width: 30%;
+	margin-top: 65px;
+	padding: 10px;
+	list-style-type: none;
+}
+#nav li{
+	display: inline-block;
+	zoom:1;display:inline;/*IE*/
+	margin-right: 10px;
+}
+#nav li a {
+	font-weight: 900;
+	font-size: 16px;
+	padding: 0.5em 1em;
+	}
+#nav li a:hover{
+	background-color: #252525;
+}
+
+/* 主要内容 */
+#content{
+	font-family: "Segoe UI","Microsoft Yahei";
+	width: 68%;
+	padding: 20px;
+	margin: 20px 5px;
+	background-color: #444;
+}
+h2{
+	text-align: center;
+}
+h3{
+	font-weight: normal;
+	margin: 30px 0 10px -50px;
+	padding: 20px 20px 24px;
+	padding-left: 50px;
+	position: relative;
+	background-color: #7e6d42;
+}
+blockquote{
+	margin: 0 0 10px -20px;
+	padding: 20px 20px 24px;
+	padding-left: 50px;
+	position: relative;
+	background-color: #7e6d42;
+}
+code{
+	padding-left: 20px;
+	font-family: Consolas;
+}
+
+/* 边栏 */
+#sidebar{
+	width: 23%;
+	padding: 10px;
+	margin: 20px 5px;
+	background-color: #444;
+	text-align: left;
+}
+#sidebar li{
+	font-size: 16px;
+}
+
+
+
+/* 脚部 */
+#footer{
+	clear: both;
+	background-color: #222;
+	color: #888;
+	padding: 40px 0;
+	font-size: 16px;
+	zoom:1;/* IE低版本haslayout */
+}
+#footer p{
+	padding: 0 30px;
+	width: 30%;
+	color: #888
+}
+#footer a{
+	color: #fff;
+}
+#footer span{
+	font-size: 24px;
+	font-weight: 700;
+	padding: 0 5px;
+}
